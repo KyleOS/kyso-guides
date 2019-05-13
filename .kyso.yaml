@@ -1,0 +1,19 @@
+main: Readme.md
+
+title: Kyso Documention
+
+summary:
+  - Getting started with Kyso: Readme.md
+
+  - Posting to Kyso: false
+  - Writing a post on Kyso: writing-a-post-on-kyso/Readme.md
+  - Connecting your Github Repositories: connect-github/Readme.md
+  - Kyso's Jupyterlab extension: jupyterlab-plugin/Readme.md
+
+  - Workspaces: false
+  - Launching a workspace: starting-a-workspace/Readme.md
+  - Installing additional libraries: installing-libraries/kyso-terminal.ipynb
+
+  - Integrations: false
+  - Migrating from Airbnb's knowledge repo: knowledge-repo/Readme.md
+
