@@ -30,7 +30,7 @@ Once installed, refresh the page & you will see the *Kyso* option in the top nav
 
 ### Usage
 
-Click *Kyso* in the top-left of the navigation bar. From there you can:
+When you are in Jupyterlab click *Kyso* in the top-left of the navigation bar. From there you can:
 
  - Publish your current project to Kyso
  - Download a post from Kyso (if you are logged into a team you can pull in a post from your team's account)
