@@ -4,7 +4,7 @@ In this guide we will go through how to add a Github repo to Kyso so that every 
 
 It's very easy to add connect Github to Kyso - all you need to do is navigate to the Github page by clicking New > Connect Github Repository from the New button on the top right.
 
-### Authorisation
+## Authorisation
 
 If you've signed up to Kyso with Github you will already be connected and you should see all your public repos.
 If not, just click the Connect Github account button. Using the dropdown on the right you have the option
@@ -18,7 +18,7 @@ You can search and filter your repositories, and import them to Kyso by clicking
 
 From then on whenever you push a commit to Github it will update the Kyso post.
 
-### Configuration
+## Configuration
 
 You can optionally add a 'kyso.yaml' file to your directory with the following options:
 
@@ -50,7 +50,7 @@ get a ton more readers.
 
 If you want to validate your yaml before pushing to Github - checkout this [YAML Validator](http://www.yamllint.com/)
 
-### Importing one Github repository with many posts
+## Importing one Github repository with many posts
 
 If you repository contains many different folders which would be better presented
 as different posts on Kyso you can do that. There are various fields you can add
@@ -86,11 +86,11 @@ You must specify the 'posts' field in order to import child posts.
 - **main**: this is the default main file for all the include posts - you can overwrite this on a per post basis (see below).
 - **hideRoot**: (optional - default false) use this if you dont want the root repository appearing as its own Kyso post.
 
-#### Deleting a repository with child posts.
+### Deleting a repository with child posts.
 
 When you delete the parent repository all the child posts will be deleted too.
 
-### Overriding config in the child posts
+## Overriding config in the child posts
 
 You can add a 'kyso.yaml' to each child folder and override any of the defaults the same as you do when your importing just one repo.
 
