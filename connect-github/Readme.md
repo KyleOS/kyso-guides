@@ -4,16 +4,23 @@ In this guide we will go through how to add a Github repo to Kyso so that every 
 
 It's very easy to add connect Github to Kyso - all you need to do is navigate to the Github page by clicking New > Connect Github Repository from the New button on the top right.
 
-If you've signed up to Kyso with Github you will already be connected and you should see all your repos.
-If not just click the Connect Github account button. Using the dropdown on the right you have the option to authorize all your Github repositories, or just your public ones (default). Its not possible to authorize just one repo at this time given the way Github's OAuth authorisation works.
+### Authorisation
+
+If you've signed up to Kyso with Github you will already be connected and you should see all your public repos.
+If not, just click the Connect Github account button. Using the dropdown on the right you have the option
+to authorize all your Github repositories, or just your public ones (default). Its not possible to authorize
+just one repo at this time given the way Github's OAuth authorisation works.
+
+On the Github OAuth page you will have the option to authorise your own account and any organisations you may be
+part of.
 
 You can search and filter your repositories, and import them to Kyso by clicking Connect to Kyso. You can then browse to your post on Kyso and choose whichever file you want to be shown to your visitors by default.
 
 From then on whenever you push a commit to Github it will update the Kyso post.
 
-### Extra Configuration
+### Configuration
 
-You can optionally add a .kyso.yaml file to your directory with the following options:
+You can optionally add a 'kyso.yaml' file to your directory with the following options:
 
 - **branch**: this allows you to specify only a single branch which will be posted to Kyso.
 - **main**: Specify the main file you want your visitors to see
@@ -24,7 +31,7 @@ You can optionally add a .kyso.yaml file to your directory with the following op
 - **created_at**: to set the post date just add this field as a string that can be parse by moment.js https://momentjs.com/guides/#/parsing/ __This only applies to child posts__.
 - **updated_at**: same as created_at but for when the post is updated. __This only applies to child posts__.
 
-So for example if you had a directory with a 'my-article.ipynb' notebook and you wanted Kyso to only accept the staging branch you would create a .kyso.yaml file like the following:
+So for example if you had a directory with a 'my-article.ipynb' notebook and you wanted Kyso to only accept the staging branch you would create a 'kyso.yaml' file like the following:
 
 ```
 title: "My awesome post"
@@ -43,14 +50,16 @@ get a ton more readers.
 
 If you want to validate your yaml before pushing to Github - checkout this [YAML Validator](http://www.yamllint.com/)
 
-### Importing one Repository with many posts
+### Importing one Github repository with many posts
 
 If you repository contains many different folders which would be better presented
 as different posts on Kyso you can do that. There are various fields you can add
-to your .kyso.yaml to configure the behaviour you like
+to your 'kyso.yaml' to configure the behaviour you like
 
 - **Posts**:  All you need is to add a 'posts' field
-  to the .kyso.yaml with a list of folders you want to include
+  to the 'kyso.yaml' with a list of folders you want to include. Currently the child
+  posts must be organised in folders, importing different files from one folder as
+  different child posts is not possible.
 
   ```
   posts:
@@ -72,14 +81,24 @@ to your .kyso.yaml to configure the behaviour you like
     - "article*"
   ```
 
+You must specify the 'posts' field in order to import child posts.
+
 - **main**: this is the default main file for all the include posts - you can overwrite this on a per post basis (see below).
 - **hideRoot**: (optional - default false) use this if you dont want the root repository appearing as its own Kyso post.
 
-#### Overriding config in the child posts
+#### Deleting a repository with child posts.
 
-You can add a .kyso.yaml to each child folder and override any of the defaults the same as you do when your importing just one repo.
+When you delete the parent repository all the child posts will be deleted too.
+
+### Overriding config in the child posts
+
+You can add a 'kyso.yaml' to each child folder and override any of the defaults the same as you do when your importing just one repo.
 
 ## Troubleshotting
 
+If your post is not appearing the way you expect - make sure that the yaml in the 'kyso.yaml' file is correct, verify it
+at [YAML Validator](http://www.yamllint.com/).
+
 If you get a 'verification error' go to your repository on Github and navigate to the Settings > Webhooks page
 and if you see a webhook that points to 'api.kyso.io' simply delete it and then re import your repository to Kyso.
+
