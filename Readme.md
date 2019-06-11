@@ -1,20 +1,23 @@
-# Getting started with Kyso
+# What is Kyso
 
-Kyso is a place where you can share your data-science work. You can publish Jupyter notebooks, charts, datasets
-and write articles. You can also create projects in our Jupyterlab workspaces & publish them to the web.
+Kyso is a place where you can share your data-science work, think of like your data-science portfolio.
 
-Here you'll find an overview of everything you can do on Kyso. We do our best to make this documentation clear and user-friendly, but if you have any unanswered questions, please email us directly at support at kyso.io.
+You can publish Jupyter notebooks, charts, datasets and write articles. You can also create projects in
+our Jupyterlab workspaces & publish them to the web.
 
-### Posting to Kyso
+If you are an individual data-scientist and are looking to share your work or host a portfolio, start here:
 
-- [Writing a post on Kyso](writing-a-post-on-kyso/Readme.md)
-- [Connecting your Github Repositories](connect-github/Readme.md)
-- [Kyso's Jupyterlab extension](jupyterlab-plugin/Readme.md)
+- [Kyso for data-scientists](/getting-started/kyso-for-data-scientists.md)
 
-### Jupyterlab Workspaces
-- [Launching a workspace](starting-a-workspace/Readme.md)
-- [Installing additional libraries](installing-libraries/kyso-terminal.ipynb)
+<!-- To learn what makes a great data-science article, start here: -->
 
-### Integrations
-- [Migrating from Airbnb's knowledge repo](knowledge-repo/Readme.md)
+<!-- - [How to write a data-science article](/getting-started/how-to-write-a-data-science-article.md) -->
 
+<!-- If you are a company, or team looking for an internal knowledge-repository, start here:
+
+- [Kyso for teams](/getting-started/kyso-for-teams)
+
+If you are a scientific team, start here:
+
+- [Kyso for scientists](/getting-started/kyso-for-scientists)
+ -->

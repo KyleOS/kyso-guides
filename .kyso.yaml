@@ -1,9 +1,17 @@
 main: Readme.md
 
-title: Kyso Documention
+title: Kyso Documentation
+
+branch: master
 
 summary:
-  - Getting started with Kyso: Readme.md
+  - Kyso Documentation: Readme.md
+
+  - Getting started with Kyso: false
+  - Kyso for data-scientists: getting-started/kyso-for-data-scientists.md
+  - How to write a data-science article: getting-started/how-to-write-a-data-science-article.md
+  # - Kyso for teams: getting-started/kyso-for-teams/Readme.md
+  # - Kyso for scientists: getting-started/kyso-for-scientists/Readme.md
 
   - Posting to Kyso: false
   - Publishing to Kyso: writing-a-post-on-kyso/Readme.md

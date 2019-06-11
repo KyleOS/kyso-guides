@@ -28,7 +28,7 @@ You can optionally add a 'kyso.yaml' file to your directory with the following o
 - **description**: Specify the description of the post
 - **tags**: any tags you want added to the post
 - **email**:  an email address that a Kyso team member used to sign up to Kyso and they will be attributed as the creator on Kyso. __This only applies to child posts__.
-- **created_at**: to set the post date just add this field as a string that can be parse by moment.js https://momentjs.com/guides/#/parsing/ __This only applies to child posts__.
+- **created_at**: to set the post date just add this field as a string that can be parse by moment.js https://momentjs.com/guides/#/parsing/ __This only applies to child posts__. Example 'created_at: 2019-05-10'
 - **updated_at**: same as created_at but for when the post is updated. __This only applies to child posts__.
 
 So for example if you had a directory with a 'my-article.ipynb' notebook and you wanted Kyso to only accept the staging branch you would create a 'kyso.yaml' file like the following:
@@ -41,6 +41,7 @@ main: my-article.ipynb
 tags:
   - apples
   - organges
+created_at: 2019-05-10
 ```
 
 You can also set the title and description, and preview image in the post config on Kyso.
@@ -94,7 +95,7 @@ When you delete the parent repository all the child posts will be deleted too.
 
 You can add a 'kyso.yaml' to each child folder and override any of the defaults the same as you do when your importing just one repo.
 
-## Troubleshotting
+## Troubleshootting
 
 If your post is not appearing the way you expect - make sure that the yaml in the 'kyso.yaml' file is correct, verify it
 at [YAML Validator](http://www.yamllint.com/).
