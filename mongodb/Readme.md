@@ -2,7 +2,7 @@
 
 *This guide will walk you through how to connect to your own MongoDB instance from a Jupyter notebook, pull in your data and plot it, all with python.*
 
-![Data Analysis](images/mongodb.png)
+![Database](images/library.png)
 
 ### Introduction
 
