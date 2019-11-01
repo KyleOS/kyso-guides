@@ -1,11 +1,10 @@
-
-## Jupyter Notebooks and Kyso
+## Jupyter Notebooks, Github and Kyso
 
 *Connect your Github repositories with Kyso to supercharge the way you communicate your data & analysis.*
 
 ***
 
-![Octocat]("images/octocat.png")
+![Octocat](images/octocat.png)
 
 Sharing and reproducing data science is still not easy — most work just sits on Github, undiscovered, as very technical documents. Most companies still do not have a central hub for knowledge. Data teams typically use tools like Github for project management, but this means their work is not shared with the non-technical people in the company. This also holds true for individual projects.
 
@@ -21,11 +20,11 @@ If you don’t have an account — head over to Kyso and sign up — it’s free
 
 It’s very easy to connect Github to Kyso — all you need to do is navigate to the Github page by clicking New > Connect Github Repository in the top-right corner of the navigation bar.
 
-![Octocat]["images/github-auth.png"]
+![Octocat](images/github-auth.png)
 
 If you did sign up to Kyso with Github you will be automatically connected and you should see all your public repositories. If not, on our Github page, just click the Connect Github account button. Using the dropdown on the right you have the option to authorize all your Github repositories, or just your public ones (default). It's not possible to authorize just one repo at this time given the way Github’s OAuth authorization works.
 
-![Octocat]["images/github-connect.png"]
+![Octocat](images/github-connect.png)
 
 On the Github OAuth page, you will have the option to authorize your own account and any organizations you may be a part of.
 
