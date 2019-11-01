@@ -8,3 +8,5 @@ summary:
   - Getting started with Kyso: Readme.md
 
   - Jupyter Notebooks and Kyso: notebooks-github/Readme.md
+
+  - Grpahing your MongoDB data: mongodb/Readme.md
