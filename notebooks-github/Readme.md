@@ -117,8 +117,6 @@ Finally, head over to my [Kyso profile](https://kyso.io/KyleOS) to view how thes
 
 ***
 
-<button type="button" class="btn btn-success">Success</button>
-
 
 ## For Teams
 
