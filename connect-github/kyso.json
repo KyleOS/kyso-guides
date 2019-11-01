@@ -1,6 +1,0 @@
-{
-  "main": "Readme.md",
-  "title": "Connecting a Github repo to Kyso",
-  "description": "In this guide we will go through how to add a Github repo to Kyso so that every commit you make to Github will be reflected on Kyso",
-  "tags": ["posting", "docs", "4"]
-}
