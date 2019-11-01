@@ -1,5 +1,5 @@
 main: Readme.md
-hideRoot: true
+hideRoot: false
 title: Kyso Documention
 posts:
   - "*"
