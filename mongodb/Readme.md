@@ -2,7 +2,7 @@
 
 *This guide will walk you through how to connect to your own MongoDB instance from a Jupyter notebook, pull in your data and plot it, all with python.*
 
-![Database](images/mongodb.png)
+![Data Analysis](images/mongodb.png)
 
 ### Introduction
 
@@ -31,7 +31,7 @@ From the command line, run:
 source ~/.bash_profile
 ```
 
-### Installing Anaconda
+### Installing Anaconda
 
 Now, for this guide to be portable & runnable on any machine I first need to create a virtual environment. Check out our previous guide on [installing the Anaconda distribution](https://docs.kyso.io/guides/jupyter-with-anaconda).
 
@@ -60,7 +60,7 @@ The next command ensures that our Jupyterlab instance connects to this virtual e
 python -m ipykernel install --user
 ```
 
-### Additional Installs
+### Addtional Installs
 
 Later on, once we have pulled in our data, we are going to want to graph it. We usually recommend using plotly in python, given its relatively simple syntax and interactivity.
 
@@ -86,6 +86,8 @@ jupyter lab
 ```
 
 On launch, you might be a prompt for a recommended build - the jupyterlab-plotly-extension install we ran above. Click *Build* and wait for it to be completed.
+
+***
 
 ## In Jupyter
 
@@ -127,7 +129,8 @@ Let's test if we were successful by getting a single document. The  following me
 test = collection.find_one()
 ```
 
-### Loading our data into Pandas
+
+### Loading our data into Pandas
 
 Pandas provides fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive, and is arguably the most powerful and flexible open source data analysis / manipulation tool available. 
 
@@ -163,6 +166,7 @@ cf.set_config_file(offline=True)
 Documentation for the two libraries are below:
 
 [plotly](https://plot.ly/python/)
+
 [cufflinks](https://plot.ly/python/v3/ipython-notebooks/cufflinks/)
 
 **Define your business questions**
