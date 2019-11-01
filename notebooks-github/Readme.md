@@ -117,6 +117,9 @@ Finally, head over to my [Kyso profile](https://kyso.io/KyleOS) to view how thes
 
 ***
 
+<button type="button" class="btn btn-success">Success</button>
+
+
 ## For Teams
 
 Kyso’s Github integration can also be leveraged for internal private knowledge-sharing. In 2016, Airbnb open-sourced their [Knowledge Repository](https://github.com/airbnb/knowledge-repo), built to tackle their own needs of scaling internal knowledge sharing and management.
