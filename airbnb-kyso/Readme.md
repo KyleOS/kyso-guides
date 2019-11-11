@@ -54,11 +54,11 @@ Collaboration:
 * To keep content current and structured, we facilitate a Reddit-esque upvoting system, which acts as an auto-indexer for research topics and posts.
 * Comprehensive tagging system for organizing and discovering the work of contributors.
 
-![Kyso Blog Post](images/kr2png)
+![Kyso Blog Post](images/kr2.png)
 
 **Some of the additional features mentioned above include:**
 
-#### Updating and extending analyses
+#### Updating and extending analyses
 
 Our Github integration facilitates an effortless computation-to-dissemination workflow. Once you have synced your team's repository, every commit made to Github will be refelected immediately on Kyso, so team editors can automatically update analyses or set new projects in motion much faster.
 
@@ -68,6 +68,7 @@ Our Github integration facilitates an effortless computation-to-dissemination wo
 The KR supports 3 formats that can be converted into a knowledge post: Markdown, R Markdown, and Jupyter Notebooks.
 At Kyso we have extended that to include images, datasets, links, and code. For those who don't use GitHub at all, Kyso's web-app is easy to use for uploading or creating, and sharing, posts.
 
+***
 
 ### Integrate Kyso into your existing workflow
 
