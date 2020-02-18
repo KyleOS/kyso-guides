@@ -1,10 +1,6 @@
-# Scaling Knowledge from Data with Kyso
-
-*Kyso for Teams is a centralised knowledge hub for sharing and collaborating on technical reports.*
-
 ![Knowledge Transfer](images/knowledge-repo.png)
 
-## An Issue of Knowledge Management
+## An Issue Of Knowledge Management
 
 Data science is exploding; more and more organizations are using data to power, well, everything. This explosion is the result of a huge increase in the amount of data collected to drive business value. However, a challenge that continues to persist is the tooling. Data-science tools are very technical, by which I mean it can be difficult to convert these tools to more readable formats, making reports difficult to share. This causes a lot of locked business value because not everyone in the company learns from the insights generated. 
 
@@ -24,7 +20,7 @@ The knowledge repository acts as a curated knowledge sharing and management plat
 
 Airbnb’s knowledge repository has been revolutionary for sharing and benefiting from data science at scale. Our team here has used it in the past for internal reporting and it sped up every aspect of our data analytics. However, the focus seems to be specifically on facilitating the sharing of knowledge between data scientists and other technical roles - we wanted to create a space where everyone throughout the company can apply generated data insights to their respective roles. We also felt we could improve the overall user experience, and we had a lot of additional feature ideas to better scale knowledge sharing & foster a more data-driven culture within companies.
 
-## Our solution: Kyso for Teams
+## Our Solution: Kyso For Teams
 
 [Kyso](https://kyso.io/) is our own next-generation knowledge repository, a central hub where data scientists & analysts can post reports so everyone on the team can read and learn from them. Specifically, Kyso renders Jupyter and R notebooks elegantly so that everyone in the company can read them and thus bridges the gap between the data team and the rest of the company. 
 
@@ -34,7 +30,7 @@ Think of it like Medium — an elegant, internal, blogging platform, but with th
 
 Getting non-technical data stakeholders to better use and interact with data is the problem that Kyso looks to solve - to facilitate wider communication of data insights so these can be applied in all roles across a company. This is why we built Kyso. Regardless of the tool used by the individual data scientists, there should be one common framework for communicating and collaborating effectively on finished reports.
 
-## How it works
+## How It Works
 
 In building Kyso, we focused on a few points to achieve this:
 
