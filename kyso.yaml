@@ -1,12 +1,12 @@
 main: Readme.md
-hideRoot: false
+hideRoot: true
 title: Kyso Documention
 posts:
-  - "*"
+  - knowledge-repo
 
-summary:
-  - Getting started with Kyso: Readme.md
+# summary:
+#   - Getting started with Kyso: Readme.md
 
-  - Jupyter Notebooks and Kyso: notebooks-github/Readme.md
+#   - Jupyter Notebooks and Kyso: notebooks-github/Readme.md
 
-  - Graphing your MongoDB data: mongodb/Readme.md
+#   - Graphing your MongoDB data: mongodb/Readme.md

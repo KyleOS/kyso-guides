@@ -66,7 +66,7 @@ Our Github integration facilitates an effortless computation-to-dissemination wo
 #### Facilitating for all types of teams
 
 The KR supports 3 formats that can be converted into a knowledge post: Markdown, R Markdown, and Jupyter Notebooks.
-At Kyso we have extended that to include images, datasets, links, and code. For those who don't use GitHub at all, Kyso's web-app is easy to use for uploading or creating, and sharing, posts.
+At Kyso we have extended that to include images, datasets, links, and code. For those who don't use GitHub at all, Kyso's web-app is easy to use for uploading or creating, and sharing, posts. 
 
 ***
 
