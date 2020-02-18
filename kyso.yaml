@@ -3,6 +3,7 @@ hideRoot: true
 title: Kyso Documention
 posts:
   - knowledge-repo
+  - notebooks-github/
 
 # summary:
 #   - Getting started with Kyso: Readme.md
