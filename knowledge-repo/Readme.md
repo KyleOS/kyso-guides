@@ -2,13 +2,15 @@
 
 ## An Issue Of Knowledge Management
 
-Data science is exploding; more and more organizations are using data to power, well, everything. This explosion is the result of a huge increase in the amount of data collected to drive business value. However, a challenge that continues to persist is the tooling. Data-science tools are very technical, by which I mean it can be difficult to convert these tools to more readable formats, making reports difficult to share. This causes a lot of locked business value because not everyone in the company learns from the insights generated. 
+Data science is exploding; more and more organizations are using data to power, well, everything. This explosion is the result of a huge increase in the amount of data collected to drive business value.
 
-What is needed is a central knowledge management space, not only where data scientists and analysts can simply post their reports, but do so in a way that is digestible to non-technical stakeholders, so everyone within the company can make better data-driven decisions.
+However, a challenge that continues to persist is the tooling. Data-science tools are very technical, meaning it is difficult to convert these tools to more readable formats, making reports difficult to share. This causes a lot of locked business value because not everyone in the company learns from the insights generated.
+
+What is needed is a central knowledge management space, where data scientists and analysts can simply post their reports, and do so in a way that is digestible to non-technical stakeholders, so everyone within the company can make better data-driven decisions.
 
 ## Airbnb's Knowledge Repository
 
-In 2016, Airbnb open-sourced their [Knowledge Repository](https://github.com/airbnb/knowledge-repo), built to tackle their own needs of scaling internal knowledge sharing and management, to democratise data access for all.
+In 2016, Airbnb open-sourced their [Knowledge Repository](https://github.com/airbnb/knowledge-repo), built to tackle their own needs of scaling internal knowledge sharing and management, and to democratise data access for all in the company.
 
 The knowledge repository acts as a curated knowledge sharing and management platform, developed with the following aims in relation to posted content:
 
@@ -18,7 +20,9 @@ The knowledge repository acts as a curated knowledge sharing and management plat
 - Discoverability.
 - Learning - other technical team members should have the ability to learn new tools and techniques.
 
-Airbnb’s knowledge repository has been revolutionary for sharing and benefiting from data science at scale. Our team here has used it in the past for internal reporting and it sped up every aspect of our data analytics. However, the focus seems to be specifically on facilitating the sharing of knowledge between data scientists and other technical roles - we wanted to create a space where everyone throughout the company can apply generated data insights to their respective roles. We also felt we could improve the overall user experience, and we had a lot of additional feature ideas to better scale knowledge sharing & foster a more data-driven culture within companies.
+Airbnb’s knowledge repository has been revolutionary for sharing and benefiting from data science at scale. Our team here has used it in the past for internal reporting and it sped up every aspect of our data analytics. 
+
+However, the focus seems to be specifically on facilitating the sharing of knowledge between data scientists and other technical roles - we wanted to create a space where everyone throughout the company can apply generated data insights to their respective roles. We also felt we could improve the overall user experience, and we had a lot of additional feature ideas to better scale knowledge sharing & foster a more data-driven culture within companies.
 
 ## Our Solution: Kyso For Teams
 
