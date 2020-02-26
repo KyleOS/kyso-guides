@@ -1,5 +1,5 @@
-description: "Documentation on how you can connect to MongoDB from a Jupyter notebook, plot your data and post your analysis to Kyso."
+description: "Gain access to your MongoDB data so you can learn actionable insights about your business."
 email: kyle@kyso.io
 main: Readme.md
 preview: images/library.png
-title: "Graphing MongoDB Data"
+title: "Graphing Your MongoDB Data"
