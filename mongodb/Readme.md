@@ -2,7 +2,7 @@
 
 Flexible, NoSQL databases, which can handle large amounts of unstructured data and can flexibly increase or reduce storage capacity without loss, will gradually displace relational databases. MongoDB is one of the top picks among NoSQL databases in terms of fulfilling business requirements on fast and flexible access to data in multiple phases of development, especially where live data prevails.
 
-One issue that a lot of companies face, particularly smaller companies and startups with an undeveloped data team, is visualising their data sitting on their database so they can take actionble insights. 
+One issue that a lot of companies face, particularly smaller companies and startups with an undeveloped data team, is visualising their data sitting on their database so they can take actionble insights.
 
 This guide will walk you through how to connect to your own MongoDB instance from a Jupyter notebook, pull in your data and plot it, all with python. It is assumed that you already have a MongoDB database running on Atlas.
 
