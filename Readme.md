@@ -7,10 +7,8 @@ Here you'll find an overview of everything you can do on Kyso. We do our best to
 
 ### Guides
 
-- [From Airbnb’s Knowledge Repo to Kyso for Teams](airbnb-kyso/Readme.md)
+- [Kyso for Teams](knowledge-repo/Readme.md)
 
-- [Jupyter notebooks and Kyso's Github integration](notebooks-github/Readme.md)
+- [Jupyter Notebooks and Kyso](notebooks-github/Readme.md)
 
 - [Graphing your MongoDB data](mongodb/Readme.md)
-
-- [Jupyterhub and Kyso](jupyterhub/Readme.md)
