@@ -1,4 +1,4 @@
-![Database](images/library.png)
+![Database](images/mongo-db.jpg)
 
 Flexible, NoSQL databases, which can handle large amounts of unstructured data and can flexibly increase or reduce storage capacity without loss, will gradually displace relational databases. MongoDB is one of the top picks among NoSQL databases in terms of fulfilling business requirements on fast and flexible access to data in multiple phases of development, especially where live data prevails.
 
