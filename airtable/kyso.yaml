@@ -1,0 +1,5 @@
+description: "Learn how to connect to an Airtable base from a Jupyter notebook, pull in your data and plot it, all with python."
+email: kyle@kyso.io
+main: Readme.md
+preview: images/airtable.png
+title: "Graphing Your Airtable Data"
