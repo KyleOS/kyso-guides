@@ -11,4 +11,4 @@ Here you'll find an overview of everything you can do on Kyso. We do our best to
 
 - [Jupyter Notebooks and Kyso](notebooks-github/Readme.md)
 
-- [Graphing your Mong   oDB data](mongodb/Readme.md)
+- [Graphing your MongoDB data](mongodb/Readme.md)
