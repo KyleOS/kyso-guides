@@ -1,4 +1,4 @@
-![Octocat](images/octocat.png)
+![Octocat](images/jupyter-github.png)
 
 Sharing and reproducing data science is still not easy. Most companies still do not have a central hub for knowledge management. Internal data teams use tools like Github for project management, access to which is typically restricted to the data scientists & engineers. This means their work is not shared with the non-technical people in the company. They use technical documents like data science notebooks for data exploration & analysis, but the presence of code, terminal output, etc. means they are not the best communication tool for non-technical audiences. All of this causes a lot of locked business value because not everyone in the company learns from generated insights. 
 
